@@ -85,6 +85,41 @@
     <!-- Full Width Image Header -->
     <header class="header-image">
         <div class="headline">
+<div class="container">  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="src/Hdr.png" alt="Economy" style="width:100%;height:50%">
+      </div>
+
+      <div class="item">
+        <img src="src/Sydney.jpg" alt="Demographics" style="width:100%;height:50%">
+      </div>
+    
+      <div class="item">
+        <img src="src/Sydney Harbour.jpg" alt="Climate" style="width:100%;height:50%">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
 
         </div>
     </header>
@@ -97,9 +132,10 @@
         <!-- First Featurette -->
         <div class="featurette" id="PreHistory">
             <img class="featurette-image img-circle img-responsive pull-right" src="src/AAA-prehistory.jpg">
-            <h2 class="featurette-heading">Australia - History
-                <span class="text-muted">Prehistory</span>
-            </h2>
+            <h2 class="featurette-heading"> Australia History
+			
+                <span class="text-muted"> Pre History</span>
+			</h2>
             <p class="lead">Human habitation of the Australian continent is estimated to have begun between 42,000 and 48,000 years ago, possibly with the migration of people by land bridges and short sea-crossings from what is now Southeast Asia. 
 			These first inhabitants may have been ancestors of modern Indigenous Australians. At the time of European settlement in the late 18th century, most Indigenous Australians were hunter-gatherers, with a complex oral culture and spiritual 
 			values based on reverence for the land and a belief in the Dreamtime.</p>
@@ -115,13 +151,41 @@
             <img class="featurette-image img-circle img-responsive pull-left" src="src/AAA-EuropeanArrival.JPG">
             <h2 class="featurette-heading">
                 <span class="text-muted">European arrival</span>
+
             </h2>
             <p class="lead">The first recorded European sighting of the Australian mainland, and the first recorded European landfall on the Australian continent (in 1606), 
 			are attributed to the Dutch. The first ship and crew to chart the Australian coast and meet with Aboriginal people was the Duyfken captained by Dutch navigator, 
 			Willem Janszoon. He sighted the coast of Cape York Peninsula in early 1606, and made landfall on 26 February at the Pennefather River near the modern town of Weipa on Cape York. 
 			The Dutch charted the whole of the western and northern coastlines and named the island continent "New Holland" during the 17th century, but made no attempt at settlement. 
 			William Dampier, an English explorer and privateer, landed on the north-west coast of New Holland in 1688 and again in 1699 on a return trip. In 1770, 
-			James Cook sailed along and mapped the east coast, which he named New South Wales and claimed for Great Britain.</p>
+			James Cook sailed along and mapped the east coast, which he named New South Wales and claimed for <abbr title="European discovery and the colonisation of Australia. Australian Government: Culture Portal. Department of the Environment, Water, Heritage and the Arts, Commonwealth of Australia. 11 January 2008. Archived from the original on 16 February 2011.">Great Britain</abbr>.</p>
+         
+         <!-- Trigger the modal with a button -->
+     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Colonial Expansion</button>
+
+         <!-- Modal -->
+     <div id="myModal" class="modal fade" role="dialog">
+     <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Colonial Expansion</h4>
+      </div>
+      <div class="modal-body">
+        <p>A gold rush began in Australia in the early 1850s and the Eureka Rebellion against mining licence fees in 1854 was an early expression of civil disobedience. Between 1855 and 1890, the six colonies individually gained responsible government, managing most of their own affairs while remaining part of the British Empire. The Colonial Office in London retained control of some matters, notably foreign affairs, defence, and international shipping.
+</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+			
 			<ul class="pager">
 			  <li class="previous"><a href="#Economy">Previous</a></li>
 			  <li class="next"><a href="#Geography">Next</a></li>
@@ -132,50 +196,56 @@
 
         <!-- Second Featurette -->
         <div class="featurette" id="GeneralCharacteristics">
-            <img class="featurette-image img-circle img-responsive pull-right" src="src/AAA-GeneralCharacteristics.png">
+
             <h2 class="featurette-heading">Australia - Geography
-                <span class="text-muted">General characteristics</span>
+                <span class="text-muted"></span>
             </h2>
-            <p class="lead">Australia's landmass of 7,617,930 square kilometres (2,941,300 sq mi) is on the Indo-Australian Plate. Surrounded by the Indian and Pacific oceans,
-			it is separated from Asia by the Arafura and Timor seas, with the Coral Sea lying off the Queensland coast, and the Tasman Sea lying between Australia 
- 			and New Zealand. The world's smallest continent and sixth largest country by total area, Australia—owing to its size and isolation—is often dubbed the 
-			"island continent",[91] and is sometimes considered the world's largest island. Australia has 34,218 kilometres (21,262 mi) of coastline (excluding all offshore islands),
-			and claims an extensive Exclusive Economic Zone of 8,148,250 square kilometres (3,146,060 sq mi). This exclusive economic zone does not include the Australian 
-			Antarctic Territory.[94] Apart from Macquarie Island, Australia lies between latitudes 9° and 44°S, and longitudes 112° and 154°E.</p>
+            <p class="lead">The geography of Australia encompasses a wide variety of biogeographic regions being the world's smallest continent but the sixth-largest country in the world. The population of Australia is concentrated along the eastern and southeastern coasts. The geography of the country is extremely diverse, ranging from the snow-capped mountains of the Australian Alps and Tasmania to large deserts, tropical and temperate forests.
+
+            Neighbouring countries include Indonesia, East Timor and Papua New Guinea to the north, the Solomon Islands, Vanuatu and the French dependency of New Caledonia to the east, and New Zealand to the southeast.
+			</p>
 			
         </div>
 
-        <!-- Third Featurette -->
-        <div class="featurette" id="Climate">
-            <img class="featurette-image img-circle img-responsive pull-left" src="src/AAA-Climate.png">
-            <h2 class="featurette-heading">
-                <span class="text-muted">Climate</span>
-            </h2>
-            <p class="lead">The climate of Australia is significantly influenced by ocean currents, including the Indian Ocean Dipole and the El Niño–Southern Oscillation, 
-			which is correlated with periodic drought, and the seasonal tropical low-pressure system that produces cyclones in northern Australia.
-			These factors cause rainfall to vary markedly from year to year. Much of the northern part of the country has a tropical, predominantly summer-rainfall 
-			(monsoon)[103] The south-west corner of the country has a Mediterranean climate. The south-east ranges from oceanic (Tasmania and coastal Victoria) 
-			to humid subtropical (upper half of New South Wales). The interior is arid to semi-arid.</p>
-			
-			<p class="lead">Australia's carbon dioxide emissions per capita are among the highest in the world, lower than those of only a few other industrialised nations.
-			A carbon tax was introduced in 2012 and helped to reduce Australia's emissions but was scrapped in 2014 under the Liberal Government.
-			Since the carbon tax was repealed, emissions have again continued to rise.</p>
-        </div>
-
-		<!-- Second Featurette -->
-        <div class="featurette" id="Biodiversity">
-            <img class="featurette-image img-circle img-responsive pull-right" src="src/AAA-Biodiversity.jpg">
-            <h2 class="featurette-heading">
-                <span class="text-muted">Biodiversity</span>
-            </h2>
-            <p class="lead">Although most of Australia is semi-arid or desert, it includes a diverse range of habitats from alpine heaths to tropical rainforests, 
-			and is recognised as a megadiverse country. Fungi typify that diversity; an estimated 250,000 species—of which only 5% have been described—occur 
-			in Australia.Because of the continent's great age, extremely variable weather patterns, and long-term geographic isolation, 
-			much of Australia's biota is unique. About 85% of flowering plants, 84% of mammals, more than 45% of birds, and 89% of in-shore, 
-			temperate-zone fish are endemic. Australia has the greatest number of reptiles of any country, with 755 species. Besides Antarctica, 
-			Australia is the only continent that developed without feline species. Feral cats may have been introduced in the 17th century by Dutch shipwrecks, 
-			and later in the 18th century by European settlers. They are now considered a major factor in the decline and extinction of many vulnerable and 
-			endangered native species.</p>
+     	
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        <p class="lead">General Characteristics</p></a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse in">
+      <div class="panel-body"><p class="lead">Australia's landmass of 7,617,930 square kilometres (2,941,300 sq mi) is on the Indo-Australian Plate. Surrounded by the Indian and Pacific oceans, it is separated from Asia by the Arafura and Timor seas, with the Coral Sea lying off the Queensland coast, and the Tasman Sea lying between Australia and New Zealand. The world's smallest continent and sixth largest country by total area, Australia—owing to its size and isolation—is often dubbed the "island continent",[91] and is sometimes considered the world's largest island. Australia has 34,218 kilometres (21,262 mi) of coastline (excluding all offshore islands), and claims an extensive Exclusive Economic Zone of 8,148,250 square kilometres (3,146,060 sq mi). This exclusive economic zone does not include the Australian Antarctic Territory.[94] Apart from Macquarie Island, Australia lies between latitudes 9° and 44°S, and longitudes 112° and 154°E.</p><img class="featurette-image img-circle img-responsive pull-right" src="src/AAA-GeneralCharacteristics.png"></div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        <p class="lead">Climate</p></a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body"><p class="lead">The climate of Australia is significantly influenced by ocean currents, including the Indian Ocean Dipole and the El Niño–Southern Oscillation, which is correlated with periodic drought, and the seasonal tropical low-pressure system that produces cyclones in northern Australia. These factors cause rainfall to vary markedly from year to year. Much of the northern part of the country has a tropical, predominantly summer-rainfall (monsoon)[103] The south-west corner of the country has a Mediterranean climate. The south-east ranges from oceanic (Tasmania and coastal Victoria) to humid subtropical (upper half of New South Wales). The interior is arid to semi-arid.</p><img class="featurette-image img-circle img-responsive pull-right" src="src/AAA-Climate.png"></div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        <p class="lead">Biodiversity</p></a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body"><p class="lead">
+			<img class="featurette-image img-circle img-responsive pull-right" src="src/AAA-Biodiversity.jpg">
+Although most of Australia is semi-arid or desert, it includes a diverse range of habitats from alpine heaths to tropical rainforests, and is recognised as a megadiverse country. Fungi typify that diversity; an estimated 250,000 species—of which only 5% have been described—occur in Australia.Because of the continent's great age, extremely variable weather patterns, and long-term geographic isolation, much of Australia's biota is unique. About 85% of flowering plants, 84% of mammals, more than 45% of birds, and 89% of in-shore, temperate-zone fish are endemic. Australia has the greatest number of reptiles of any country, with 755 species. Besides Antarctica, Australia is the only continent that developed without feline species. Feral cats may have been introduced in the 17th century by Dutch shipwrecks, and later in the 18th century by European settlers. They are now considered a major factor in the decline and extinction of many vulnerable and endangered native species.</p></div>
+    </div>
+  </div>
+</div>
+		<div>
 			<ul class="pager">
 			  <li class="previous"><a href="#History">Previous</a></li>
 			  <li class="next"><a href="#Economy">Next</a></li>
@@ -220,6 +290,22 @@
 			almost 5.9 million of the total population settled in the country as new immigrants. Most immigrants are skilled, but the immigration quota includes 
 			categories for family members and refugees. By 2050, Australia's population is currently projected to reach around 42 million. Nevertheless, its population 
 			density, 2.8 inhabitants per square kilometre, remains among the lowest in the world.</p>
+		<div class="container">
+			<h3>Language</h3>
+			<a href="#" data-toggle="popover" title="Language" data-content="Although Australia has no official language, English has always been entrenched as the de facto national language.Australian English is a major variety of the language with a distinctive accent and lexicon, and differs slightly from other varieties of English in grammar and spelling. General Australian serves as the standard dialect.">Language</a>
+		</div>
+<div class="container">
+			<a href="#" data-toggle="popover" title="Religion" data-content="Australia has no state religion; Section 116 of the Australian Constitution prohibits the federal government from making any law to establish any religion, impose any religious observance, or prohibit the free exercise of any religion. In the 2016 census, 52.1% of Australians were counted as Christian, including 22.6% as Roman Catholic and 13.3% as Anglican; 30.1% of the population reported having no religion; 7.3% identify with non-Christian religions, the largest of these being Islam (2.6%), followed by Buddhism (2.5%), Hinduism (1.9%) and Judaism (0.4%). The remaining 9.6% of the population did not provide an adequate answer. Those who reported having no religion increased conspicuously from 19% in 2006 to 30% in 2016. The largest change was between 2011 (22%) and 2016 (30.1%), when a further 2.2 million people reported having no religion.">Religion</a>
+		</div>
+<div class="container">
+			<a href="#" data-toggle="popover" title="Health" data-content="Australia has the third and seventh highest life expectancy of males and females respectively in the world. Life expectancy in Australia in 2010 was 79.5 years for males and 84.0 years for females. Australia has the highest rates of skin cancer in the world, while cigarette smoking is the largest preventable cause of death and disease, responsible for 7.8% of the total mortality and disease. Ranked second in preventable causes is hypertension at 7.6%, with obesity third at 7.5%. Australia ranks 35th in the world and near the top of developed nations for its proportion of obese adults and nearly two thirds (63%) of its adult population is either overweight or obese.">Health</a>
+		</div>
+<div class="container">
+			<a href="#" data-toggle="popover" title="Education" data-content="SAustralia has an adult literacy rate that was estimated to be 99% in 2003. However, a 2011–12 report for the Australian Bureau of Statistics reported that Tasmania has a literacy and numeracy rate of only 50%.In the Programme for International Student Assessment, Australia regularly scores among the top five of thirty major developed countries (member countries of the Organisation for Economic Co-operation and Development). Catholic education accounts for the largest non-government sector.">Education</a>
+		</div>
+		
+
+
         </div>
 
         <!-- Footer -->
@@ -243,6 +329,7 @@
 	<!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+    <script src="js/tooltip.js"></script>
 </body>
 
 </html>
