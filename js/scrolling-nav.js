@@ -411,7 +411,9 @@ $(function() {
         //if the user just closes the browser, we will default to saving 
         //their progress data. If the user presses exit, he is prompted.
         //If the user reached the end, the exit normall to submit results.
-        if (pressedExit == false && reachedEnd == false){
+		// default to false below, may need to change once exit button enabled in the course
+		//var pressedExit = false;
+        if (reachedEnd == false){
             ScormProcessSetValue("cmi.core.exit", "suspend");
         }
         
